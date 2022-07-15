@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <!-- HEADER -->
+    <HeaderComponent/>
     
     <!-- MAIN -->
     <!-- sections -->
@@ -10,12 +11,14 @@
 </template>
 
 <script>
+// *IMPORTS
+import HeaderComponent from "./components/HeaderComponent.vue";
 
-
+// *DATA
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    
+    HeaderComponent,
   }
 }
 </script>
