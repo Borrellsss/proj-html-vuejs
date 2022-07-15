@@ -3,7 +3,7 @@
         <!-- header top -->
         <HeaderTopComponent/>
         <!-- header bottom -->
-        <HeaderBottomComponent/>
+        <HeaderBottomComponent :navLinks="headerBottomLinks"/>
     </header>
 </template>
 
@@ -15,9 +15,17 @@ import HeaderBottomComponent from "./HeaderBottomComponent.vue";
 // *DATA
 export default {
     name: "HeaderComponent",
+    props: {
+        headerBottomLinks: Array,
+    },
     components: {
         HeaderTopComponent,
         HeaderBottomComponent,
+    },
+    data() {
+        return {
+
+        }
     }
 }
 </script>

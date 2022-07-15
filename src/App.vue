@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <!-- HEADER -->
-    <HeaderComponent/>
-    
+    <HeaderComponent :headerBottomLinks="headerBottomLinks"/>
+
     <!-- MAIN -->
     <!-- sections -->
 
@@ -19,6 +19,11 @@ export default {
   name: "App",
   components: {
     HeaderComponent,
+  },
+  data() {
+    return {
+      headerBottomLinks: ["home", "about", "services", "process", "team", "blog"],
+    }
   }
 }
 </script>

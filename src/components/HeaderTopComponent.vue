@@ -71,7 +71,7 @@ export default {
 
 // *STYLING
 .header-top {
-    padding-block: $header-top-padding;
+    padding-block: $header-padding;
     font-size: $header-top-font-size;
     color: #c0c3d0;
     background-color: $twentieth-color;
