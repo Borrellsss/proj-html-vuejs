@@ -13,6 +13,25 @@
 }
 body {
     font-family: 'Mulish', sans-serif;
+
+    :is(input, select) {
+        padding: 0.7em 0.95em;
+        border: none;
+        border-radius: 0.2em;
+        font-family: inherit;
+        font-size: 0.75rem;
+        color: $eighteenth-color;
+        background-color: #d0d4d5;
+    }
+    :is(h1, h2, h3, h4, h5, h6) {
+
+        &.white-title {
+            color: $second-color;
+        }
+        &.black-title {
+            color: $first-color;
+        }
+    }
 }
 img {
     width: 100%;
@@ -25,8 +44,35 @@ a {
     color: inherit;
     text-decoration: none;
 }
+h1 {
+    font-size: 3.3rem;
+    font-weight: 900;
+}
+h2 {
+    margin-bottom: 1rem;
+    font-size: 2.2rem;
+    font-weight: 900;
+}
+h3 {
+    margin-bottom: 1rem;
+    font-size: 1.05rem;
+}
+p {
+    margin-bottom: 0.85rem;
+    line-height: 1rem;
+    font-size: $p-font-size;
+}
 
 // *COMMON
+section {
+    
+    &.dark-background {
+        color: $eleventh-color;
+    }
+    &.light-background {
+        color: $first-color;
+    }
+}
 .container {
     margin: 0 auto;
     width: 60%;
@@ -38,6 +84,12 @@ a {
 .flex {
     display: flex;
 
+    &.direction-column {
+        flex-direction: column;
+    }
+    &.wrap {
+        flex-wrap: wrap;
+    }
     &.justify-center {
         justify-content: center;
     }
@@ -53,7 +105,7 @@ a {
     display: inline-block;
     font-size: 0.7rem;
     background-color: $third-color;
-    border-radius: 0.3em;
+    border-radius: 0.2em;
 
     &.green {
         color: $second-color;
@@ -61,6 +113,31 @@ a {
     }
     &.transparent {
         color: $third-color;
+        border: 1px solid $third-color;
         background-color: transparent;
+    }
+}
+.before-title {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: $seventh-color;
+
+    &.small-text {
+        margin-bottom: 1rem;
+        font-size: 0.6rem;
+        font-weight: 700;
+    }
+}
+.word-wrapper {
+    padding: 0.05em 0.3em;
+    display: inline-block;
+    border-radius: 0.08em;
+    
+    &.word-white {
+        background-color: #07828233;
+    }
+    &.word-green {
+        
     }
 }

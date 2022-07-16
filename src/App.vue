@@ -4,7 +4,7 @@
     <HeaderComponent :headerBottomLinks="headerBottomLinks"/>
 
     <!-- MAIN -->
-    <!-- sections -->
+    <FirstSectionComponent/>
 
     <!-- FOOTER -->
   </div>
@@ -13,12 +13,14 @@
 <script>
 // *IMPORTS
 import HeaderComponent from "./components/HeaderComponent.vue";
+import FirstSectionComponent from "./components/FirstSectionComponent.vue";
 
 // *DATA
 export default {
   name: "App",
   components: {
     HeaderComponent,
+    FirstSectionComponent,
   },
   data() {
     return {

@@ -1,7 +1,7 @@
 <template>
     <div class="header-bottom">
         <div class="container">
-            <div class="flex justify-between align-center">
+            <div class="header-bottom-top flex justify-between align-center">
                 <div class="header-bottom-left">
                     LOGO (MISSING!!!)
                 </div>
@@ -18,6 +18,7 @@
                     </ul>
                 </nav>
             </div>
+            <JumbotronComponent/>
         </div>
         <!-- <div v-for="element, index in navLinks" :key="index">{{element.toUpperCase()}}</div> -->
     </div>
@@ -25,13 +26,17 @@
 
 <script>
 // *IMPORTS
+import JumbotronComponent from "./JumbotronComponent.vue";
 
 // *DATA
 export default {
     name: "HeaderBottomComponent",
     props: {
         navLinks: Array,
-    }
+    },
+    components: {
+        JumbotronComponent,
+    },
 }
 </script>
 
@@ -41,10 +46,12 @@ export default {
 
 // *STYLING
 .header-bottom {
-    padding-block: $header-padding;
     font-size: 0.7rem;
     color: $twentieth-color;
-    background-color: $eleventh-color;
+    background: url("../assets/img/bg-6.jpg") center/cover;
+}
+.header-bottom-top {
+    padding-block: $header-padding 0;
 }
 .header-bottom-right li {
     margin-left: 1.5rem;
