@@ -61,11 +61,13 @@ p {
     margin-bottom: 0.85rem;
     line-height: 1rem;
     font-size: $p-font-size;
+    font-weight: 100;
 }
 
 // *COMMON
 section {
-    
+    padding-block: $main-sections-padding;
+
     &.dark-background {
         color: $eleventh-color;
     }
@@ -135,9 +137,10 @@ section {
     border-radius: 0.08em;
     
     &.word-white {
-        background-color: #07828233;
+        background-color: $word-wrapper-bg-color;
     }
     &.word-green {
-        
+        color: $third-color;
+        background-color: $word-wrapper-bg-color;
     }
 }

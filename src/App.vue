@@ -5,6 +5,7 @@
 
     <!-- MAIN -->
     <FirstSectionComponent/>
+    <SecondSectionComponent/>
 
     <!-- FOOTER -->
   </div>
@@ -14,6 +15,7 @@
 // *IMPORTS
 import HeaderComponent from "./components/HeaderComponent.vue";
 import FirstSectionComponent from "./components/FirstSectionComponent.vue";
+import SecondSectionComponent from "./components/SecondSectionComponent.vue";
 
 // *DATA
 export default {
@@ -21,6 +23,7 @@ export default {
   components: {
     HeaderComponent,
     FirstSectionComponent,
+    SecondSectionComponent,
   },
   data() {
     return {

@@ -12,7 +12,7 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ratione ad rerum eius nam quasi nisi.</p>
                 </div>
                 <div class="first-section-right">
-                    <div class="flex wrap">
+                    <div class="first-section-cards flex wrap">
                         <FirstSectionCardComponent v-for="element in firstSectionCardsArray" :key="element.id" :firstSectionCard="element"/>
                     </div>
                 </div>
@@ -75,7 +75,6 @@ export default {
 
 // *STYLING
 section {
-    padding-block: $main-sections-padding;
     background-color: $first-color;
 
     :is(.first-section-left, .first-section-right) {
@@ -85,7 +84,7 @@ section {
 .first-section-right {
     align-self: flex-end;
 
-    > .flex {
+    > .first-section-cards {
         gap: 0.7rem;
     }
 }
