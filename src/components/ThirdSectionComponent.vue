@@ -90,7 +90,7 @@ section {
 .third-section-bottom {
     position: relative;
     top: -1.1rem;
-    z-index: 99;
+    z-index: 10;
 
     .flex {
         gap: 1.5rem;

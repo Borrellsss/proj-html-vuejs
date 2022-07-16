@@ -1,6 +1,6 @@
 <template>
     <li class="third-section-card">
-        <span class="card-number">
+        <span class="card-number flex justify-center align-center">
             0{{thirdSectionCard.id}}
         </span>
         <h3>
@@ -44,9 +44,9 @@ export default {
     text-align: center;
 }
 .card-number {
-    margin-bottom: 0.8rem;
-    padding: 0.5rem;
-    display: inline-block;
+    margin: 0 auto 0.8rem;
+    width: 1.9rem;
+    aspect-ratio: 1/1;
     font-size: 0.8rem;
     font-weight: 800;
     color: $third-color;
