@@ -8,6 +8,7 @@
     <SecondSectionComponent/>
     <ThirdSectionComponent/>
     <FourthSectionComponent/>
+    <FifthSectionComponent/>
 
     <!-- FOOTER -->
   </div>
@@ -20,6 +21,7 @@ import FirstSectionComponent from "./components/FirstSectionComponent.vue";
 import SecondSectionComponent from "./components/SecondSectionComponent.vue";
 import ThirdSectionComponent from "./components/ThirdSectionComponent.vue";
 import FourthSectionComponent from "./components/FourthSectionComponent.vue";
+import FifthSectionComponent from "./components/FifthSectionComponent.vue";
 
 // *DATA
 export default {
@@ -30,6 +32,7 @@ export default {
     SecondSectionComponent,
     ThirdSectionComponent,
     FourthSectionComponent,
+    FifthSectionComponent,
   },
   data() {
     return {

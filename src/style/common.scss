@@ -76,6 +76,10 @@ section {
     }
     &.dark-background {
         color: $second-color;
+
+        .before-title {
+            color: $seventh-color;
+        }
     }
     &.light-background {
         color: $first-color;
@@ -84,10 +88,6 @@ section {
 .container {
     margin: 0 auto;
     width: 60%;
-
-    // // !debug
-    // background-color: red;
-    // height: 100%;
 
     &.big {
         width: 80%;
@@ -132,13 +132,12 @@ section {
 .before-title {
     display: inline-block;
     font-size: 0.7rem;
-    font-weight: 600;
-    color: $seventh-color;
+    font-weight: 700;
+    color: $fifteenth-color;
 
     &.small-text {
         margin-bottom: 1rem;
         font-size: 0.6rem;
-        font-weight: 700;
     }
 }
 .word-wrapper {

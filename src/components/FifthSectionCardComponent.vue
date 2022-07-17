@@ -1,0 +1,57 @@
+<template>
+    <div class="fifth-section-card">
+        <div class="card-image">
+            <img :src="fifthSectionCard.img" alt="">
+        </div>
+        <h3 class="card-text">
+            {{fifthSectionCard.text}}
+        </h3>
+    </div>
+</template>
+
+<script>
+// *IMPORTS
+
+export default {
+    name: "FifthSectionCardComponent",
+    components: {
+
+    },
+    props: {
+        fifthSectionCard: Object,
+    },
+    data() {
+        return {
+
+        }
+    },
+    methods: {
+
+    },
+}
+</script>
+
+<style lang="scss" scoped>
+// *IMPORTS
+@import "../style/variables.scss";
+
+// *STYLING
+.fifth-section-card {
+    width: calc((100% / 3) - 0.8rem);
+    position: relative;
+
+    > .card-text {
+        padding: 1.2rem;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        text-align: center;
+        font-weight: 900;
+        color: $second-color;
+    }
+}
+.card-image > img {
+    border-radius: 0.45rem;
+    filter: brightness(55%) grayscale(15%);
+}
+</style>
