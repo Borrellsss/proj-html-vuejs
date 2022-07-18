@@ -31,14 +31,13 @@ export default {
 
 // *STYLING
 .jumbotron {
-    height: 535px;
+    height: 530px;
 }
 .fusions {
     margin-left: auto;
     width: 45%;
 }
 .jumbotron-inputs {
-    margin-top: 1rem;
     gap: 0.7rem;
 
     :is(input, select) {

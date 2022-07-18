@@ -62,6 +62,11 @@ export default {
 }
 .arrow {
     color: $seventh-color;
+    transition: transform 200ms;
+
+    &:hover {
+        transform: scale(1.1);
+    }
 }
 .fa-solid.fa-plane {
     transform: rotatez(-45deg);

@@ -20,8 +20,8 @@
                 </div>
                 <div class="fourth-section-right">
                     <h3>President Speech</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing consectetur elit. Aut quis, ad cupiditate.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur elit. Eveniet vel atque minus odio autem nisi nam, aliquam omnis vero ut architecto unde, velit odit id nemo quisquam.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing consectetur elit aut quis.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur elit. Eveniet vel atque minus odio autem nisi nam, aliquam omnis vero ut architecto unde, velit odit id nemo.</p>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint dignissimos fuga expedita magni.</p>
                     <div class="flex justify-between align-center">
                         <h4>T. Johnson</h4>

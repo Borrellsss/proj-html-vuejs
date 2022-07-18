@@ -62,7 +62,7 @@
         <div class="footer-bottom">
             <div class="container">
                 <div class="flex justify-between">
-                    <p>Enjoy the low price. We are tracking any intention of privacy.</p>
+                    <p>Enjoy the low price. We are tracking any intention of piracy.</p>
                     <p>
                         <span>&#169;</span>
                         2020 NEXGEN is Proudly Powered by
@@ -119,7 +119,8 @@ footer {
         gap: 1.2rem;
     }
     :is(li) {
-        font-weight: 100;
+        font-size: 0.7rem;
+        font-weight: 200;
     }
 }
 .company-contacts {
@@ -135,7 +136,6 @@ footer {
 
         li {
             margin-bottom: 0.7rem;
-            font-size: 0.7rem;
 
             &:last-of-type {
                 margin-bottom: 0;
@@ -150,14 +150,13 @@ footer {
     padding: 1.9rem;
     width: calc((100% / 3) - 0.8rem);
     border-radius: 0.4rem;
-    background-color: #5c5e5e1e;
+    background-color: #19191f;
 
     h3 {
         margin-bottom: 0.9rem;
     }
     li {
-        margin-bottom: 0.4rem;
-        font-size: 0.75rem;
+        margin-bottom: 0.45rem;
 
         .list-chevron {
             margin-right: 0.3rem;
@@ -165,15 +164,19 @@ footer {
     }
 }
 .footer-bottom {
-    padding-block: 1.5rem;
+    padding-block: 1.4rem;
     background-color: #0d0d11;
 
     p {
         margin-bottom: 0;
-        font-size: 0.65rem;
+        font-size: 0.6rem;
 
-        &:last-of-type > a {
+        > a {
             color: $third-color;
+
+            &:hover {
+                text-decoration: underline;
+            }
         }
     }
 }

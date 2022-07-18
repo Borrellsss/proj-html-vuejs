@@ -7,7 +7,7 @@
                 <span class="word-wrapper word-green">Services</span>
             </h2>
             <div class="second-section-text flex justify-between">
-                <p>Lorem ipsum dolor sit amet elit. Eaque rerum sunt eum sit, similique fugiat odio laborum maiores velit vitae distinctio ipsa inventore blanditiis obcaecati molestiae rem ad aut quibusdam?</p>
+                <p>Lorem ipsum dolor sit amet elit. Eaque rerum sunt eum sit, similique fugiat odio laborum maiores velit vitae distinctio ipsa inventore blanditiis obcaecati molestiae rem.</p>
                 <a class="btn green" href="#">SEE ALL</a>
             </div>
             <div class="second-section-cards flex wrap">

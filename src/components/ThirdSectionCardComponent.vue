@@ -44,11 +44,11 @@ export default {
     text-align: center;
 }
 .card-number {
-    margin: 0 auto 0.8rem;
+    margin: 0 auto 0.9rem;
     width: 1.9rem;
     aspect-ratio: 1/1;
     font-size: 0.8rem;
-    font-weight: 800;
+    font-weight: 700;
     color: $third-color;
     border-radius: 50%;
     background-color: #daeced;

@@ -55,9 +55,9 @@ export default {
     background: url("../assets/img/bg-6.jpg") center/cover;
 }
 .header-bottom-top {
-    padding-block: $header-padding 0;
+    padding-block: 0.8rem 0;
 }
 .header-bottom-right li {
-    margin-left: 1.5rem;
+    margin-left: 1.4rem;
 }
 </style>

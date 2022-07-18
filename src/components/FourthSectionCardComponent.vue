@@ -60,7 +60,6 @@ export default {
     }
 }
 .member-image {
-    // margin-right: 1.2rem;
     width: 35%;
 
     img {
@@ -71,7 +70,6 @@ export default {
 
     .member-name {
         margin-bottom: 0;
-        font-weight: 900;
     }
     .member-role {
         margin-bottom: 0.8rem;
@@ -91,6 +89,10 @@ export default {
             color: $third-color;
             border-radius: 50%;
             background-color: $word-wrapper-bg-color;
+
+            &:hover {
+                box-shadow: 0 0 3px $seventh-color;
+            }
         }
     }
 }

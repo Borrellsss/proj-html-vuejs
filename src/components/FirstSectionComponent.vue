@@ -8,7 +8,7 @@
                         <span class="word-wrapper word-white">The</span>
                         Company
                     </h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit vitae corrupti odit blanditiis aut numquam eligendi quia at est sequi rerum eaque ut harum, itaque tenetur id vero natus dolor.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit vitae corrupti odit blanditiis aut numquam eligendi quia at est sequi rerum eaque ut harum, itaque tenetur.</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ratione ad rerum eius nam quasi nisi.</p>
                 </div>
                 <div class="first-section-right">
@@ -85,7 +85,7 @@ section {
     align-self: flex-end;
 
     > .first-section-cards {
-        gap: 0.7rem;
+        gap: 1.5rem 0.7rem;
     }
 }
 </style>

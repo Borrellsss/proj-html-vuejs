@@ -46,12 +46,20 @@ export default {
         left: 0;
         bottom: 0;
         text-align: center;
-        font-weight: 900;
         color: $second-color;
     }
 }
-.card-image > img {
+.card-image {
     border-radius: 0.45rem;
-    filter: brightness(55%) grayscale(15%);
+    overflow: hidden;
+
+    > img {
+        filter: brightness(55%) grayscale(10%);
+        transition: transform 800ms;
+
+        &:hover {
+            transform: scale(1.08);
+        }
+    }
 }
 </style>

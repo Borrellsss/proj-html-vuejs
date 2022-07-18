@@ -58,7 +58,7 @@ export default {
           id: 3,
           title: "Support",
           links: ["Responsibility", "Terms of Use", "About Cookies", "Privacy Policy", "Accessibility", "Information"],
-        }
+        },
       ]
     }
   }

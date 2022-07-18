@@ -77,7 +77,7 @@ export default {
     background-color: $twentieth-color;
 }
 .contacts > li {
-    margin-left: 1.5rem;
+    margin-left: 1.4rem;
 }
 .fa-clock,
 .fa-phone,

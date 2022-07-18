@@ -78,13 +78,13 @@ section {
     padding-block: $main-sections-padding calc($main-sections-padding - 1.1rem);
 }
 .third-section-top {
-    padding-bottom: 3.5rem;
+    padding-bottom: 3rem;
     border-bottom: 3.5px solid #daeced;
     text-align: center;
 
     .third-section-top-text {
         margin: 0 auto;
-        width: 67%;
+        width: 68%;
     }
 }
 .third-section-bottom {
