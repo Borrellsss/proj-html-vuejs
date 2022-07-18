@@ -4,12 +4,14 @@
     <HeaderComponent :headerBottomLinks="headerBottomLinks"/>
 
     <!-- MAIN -->
-    <FirstSectionComponent/>
-    <SecondSectionComponent/>
-    <ThirdSectionComponent/>
-    <FourthSectionComponent/>
-    <FifthSectionComponent/>
-    <SixthSectionComponent/>
+    <main>
+      <FirstSectionComponent/>
+      <SecondSectionComponent/>
+      <ThirdSectionComponent/>
+      <FourthSectionComponent/>
+      <FifthSectionComponent/>
+      <SixthSectionComponent/>
+    </main>
 
     <!-- FOOTER -->
     <FooterComponent :footerLinks="footerTopLinks"/>
