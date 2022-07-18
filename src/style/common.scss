@@ -21,7 +21,7 @@ body {
         font-family: inherit;
         font-size: 0.75rem;
         color: $eighteenth-color;
-        background-color: #d0d4d5;
+        background-color: #ffffff81;
     }
     :is(h1, h2, h3, h4, h5, h6) {
 
@@ -89,6 +89,9 @@ section {
     margin: 0 auto;
     width: 60%;
 
+    &.small {
+        width: 49%;
+    }
     &.big {
         width: 80%;
     }
@@ -112,6 +115,30 @@ section {
         align-items: center;
     }
 }
+.logo {
+    font-size: 1rem;
+    font-weight: 800;
+    letter-spacing: 0.2rem;
+
+    &.small {
+        font-size: 0.85rem;
+
+        .nex-wrapper {
+            background-color: #45babc3d;
+        }
+    }
+    .nex-wrapper {
+        padding: 0.45em 0 0.45em 1.3rem;
+        display: inline-block;
+        border-top-left-radius: 1.5em;
+        border-bottom-left-radius: 1.5em;
+        background-color: $word-wrapper-bg-color;
+        color: $fifteenth-color;
+    }
+    .gen-wrapper {
+        margin-left: 0.15em;
+    }
+}
 .btn {
     padding: $buttons-padding;
     display: inline-block;
@@ -127,6 +154,10 @@ section {
         color: $third-color;
         border: 1px solid $third-color;
         background-color: transparent;
+
+        &.white {
+            color: $second-color;
+        }
     }
 }
 .before-title {

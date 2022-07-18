@@ -43,6 +43,7 @@ export default {
 
     :is(input, select) {
         width: calc((100% / 2) - 0.35rem);
+        background-color: #aeb0b060;
     }
 }
 .jumbotron-buttons {

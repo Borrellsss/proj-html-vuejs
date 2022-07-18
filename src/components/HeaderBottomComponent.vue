@@ -3,7 +3,12 @@
         <div class="container">
             <div class="header-bottom-top flex justify-between align-center">
                 <div class="header-bottom-left">
-                    LOGO (MISSING!!!)
+                    <div class="logo small">
+                        <a href="#">
+                            <span class="nex-wrapper">NEX</span>
+                            <span class="gen-wrapper">GEN</span>
+                        </a>
+                    </div>
                 </div>
                 <nav class="header-bottom-right">
                     <ul class="flex align-center">
@@ -20,7 +25,6 @@
             </div>
             <JumbotronComponent/>
         </div>
-        <!-- <div v-for="element, index in navLinks" :key="index">{{element.toUpperCase()}}</div> -->
     </div>
 </template>
 

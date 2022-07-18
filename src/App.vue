@@ -9,8 +9,10 @@
     <ThirdSectionComponent/>
     <FourthSectionComponent/>
     <FifthSectionComponent/>
+    <SixthSectionComponent/>
 
     <!-- FOOTER -->
+    <FooterComponent :footerLinks="footerTopLinks"/>
   </div>
 </template>
 
@@ -22,6 +24,8 @@ import SecondSectionComponent from "./components/SecondSectionComponent.vue";
 import ThirdSectionComponent from "./components/ThirdSectionComponent.vue";
 import FourthSectionComponent from "./components/FourthSectionComponent.vue";
 import FifthSectionComponent from "./components/FifthSectionComponent.vue";
+import SixthSectionComponent from "./components/SixthSectionComponent.vue";
+import FooterComponent from "./components/FooterComponent.vue";
 
 // *DATA
 export default {
@@ -33,10 +37,29 @@ export default {
     ThirdSectionComponent,
     FourthSectionComponent,
     FifthSectionComponent,
+    SixthSectionComponent,
+    FooterComponent,
   },
   data() {
     return {
       headerBottomLinks: ["home", "about", "services", "process", "team", "blog"],
+      footerTopLinks: [
+        {
+          id: 1,
+          title: "About",
+          links: ["The Company", "Institutional", "Social & Events", "Innovation", "Environment", "Technology"],
+        },
+        {
+          id: 2,
+          title: "Services",
+          links: ["Audit & Assurance", "Financial Advisory", "Analytics M&A", "Middle Marketing", "Legal Consulting", "Regulatory Risk"],
+        },
+        {
+          id: 3,
+          title: "Support",
+          links: ["Responsibility", "Terms of Use", "About Cookies", "Privacy Policy", "Accessibility", "Information"],
+        }
+      ]
     }
   }
 }
