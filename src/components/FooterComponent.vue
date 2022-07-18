@@ -5,7 +5,7 @@
                 <div class="flex">
                     <div class="company-contacts">
                         <div class="logo">
-                            <a href="#">
+                            <a @click.prevent href="#">
                                 <span class="nex-wrapper">NEX</span>
                                 <span class="gen-wrapper">GEN</span>
                             </a>
@@ -13,7 +13,7 @@
                         <p>A Functional HTML Template for Corporate & Business.</p>
                         <ul class="contacts-list">
                             <li>
-                                <a href="#">
+                                <a @click.prevent href="#">
                                     <span>
                                         <i class="fa-solid fa-phone"></i>
                                     </span>
@@ -21,7 +21,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a @click.prevent href="#">
                                     <span>
                                         <i class="fa-solid fa-envelope"></i>
                                     </span>
@@ -29,7 +29,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a @click.prevent href="#">
                                     <span>
                                         <i class="fa-solid fa-location-dot"></i>
                                     </span>
@@ -37,7 +37,7 @@
                                 </a>
                             </li>
                         </ul>
-                        <a href="#" class="btn transparent white">GET IN TOUCH</a>
+                        <a @click.prevent href="#" class="btn transparent white">GET IN TOUCH</a>
                     </div>
                     <div class="footer-top-right flex wrap">
                         <div class="footer-links" v-for="element in footerLinks" :key="element.id">
@@ -46,7 +46,7 @@
                             </h3>
                             <ul>
                                 <li v-for="(element, index) in element.links" :key="index">
-                                    <a href="#">
+                                    <a @click.prevent href="#">
                                         <span class="list-chevron">
                                             <i class="fa-solid fa-chevron-right"></i>
                                         </span>
@@ -66,7 +66,7 @@
                     <p>
                         <span>&#169;</span>
                         2020 NEXGEN is Proudly Powered by
-                        <a href="#">Codings</a>.
+                        <a @click.prevent href="#">Codings</a>.
                     </p>
                 </div>
             </div>

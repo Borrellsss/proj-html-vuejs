@@ -7,13 +7,13 @@
                 <input type="text" placeholder="Name">
                 <input type="email" placeholder="Email">
                 <input type="text" placeholder="Phone">
-                <select name="" id="">
+                <select name="more-info" id="more-info">
                     <option value="more">More Info</option>
                 </select>
             </div>
             <div class="jumbotron-buttons">
-                <a class="btn green" href="#">GET IN TOUCH</a>
-                <a class="btn transparent" href="#">READ MORE</a>
+                <a @click.prevent class="btn green" href="#">GET IN TOUCH</a>
+                <a @click.prevent class="btn transparent" href="#">READ MORE</a>
             </div>
         </div>
     </div>
@@ -43,6 +43,9 @@ export default {
     :is(input, select) {
         width: calc((100% / 2) - 0.35rem);
         background-color: #aeb0b060;
+    }
+    #more-info:hover {
+        cursor: pointer;
     }
 }
 .jumbotron-buttons {

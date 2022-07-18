@@ -13,7 +13,7 @@
                 </span>
                 <ul class="member-socials flex">
                     <li v-for="(element, index) in fourthSectionCard.socials" :key="index">
-                        <a class="flex justify-center align-center" href="#">
+                        <a @click.prevent class="flex justify-center align-center" href="#">
                             <span>
                                 <i :class="element"></i>
                             </span>

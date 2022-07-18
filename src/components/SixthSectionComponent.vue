@@ -14,7 +14,7 @@
                     <div class="flex wrap">
                         <input type="text" placeholder="Name">
                         <input type="email" placeholder="Email">
-                        <a class="btn green" href="#">SUBSCRIBE</a>
+                        <a @click.prevent class="btn green" href="#">SUBSCRIBE</a>
                     </div>
                 </div>
             </div>

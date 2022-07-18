@@ -8,7 +8,7 @@
             </h2>
             <div class="fifth-section-text flex justify-between">
                 <p>Every week we publish content about what is best in the business world.</p>
-                <a class="btn green" href="#">SEE ALL</a>
+                <a @click.prevent class="btn green" href="#">SEE ALL</a>
             </div>
             <div class="fifth-section-cards flex wrap">
                 <FifthSectionCardComponent v-for="element in fifthSectionCardsArray" :key="element.id" :fifthSectionCard="element"/>

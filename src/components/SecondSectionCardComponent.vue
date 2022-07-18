@@ -5,7 +5,7 @@
                 <i :class="secondSectionCard.icon"></i>
             </span>
             <span class="arrow">
-                <a href="#">
+                <a @click.prevent href="#">
                     <i class="fa-solid fa-arrow-right"></i>
                 </a>
             </span>

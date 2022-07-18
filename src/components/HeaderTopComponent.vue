@@ -13,7 +13,7 @@
                 <div class="header-top-right">
                     <ul class="contacts flex">
                         <li>
-                            <a href="#">
+                            <a @click.prevent href="#">
                                 <span>
                                     <i class="fa-solid fa-phone"></i>
                                 </span>
@@ -21,7 +21,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a @click.prevent href="#">
                                 <span>
                                     <i class="fa-solid fa-envelope"></i>
                                 </span>
@@ -29,21 +29,21 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a @click.prevent href="#">
                                 <span>
                                     <i class="fa-brands fa-facebook-f"></i>
                                 </span>
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a @click.prevent href="#">
                                 <span>
                                     <i class="fa-brands fa-twitter"></i>
                                 </span>
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a @click.prevent href="#">
                                 <span>
                                     <i class="fa-brands fa-linkedin-in"></i>
                                 </span>

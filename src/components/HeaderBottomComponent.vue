@@ -4,7 +4,7 @@
             <div class="header-bottom-top flex justify-between align-center">
                 <div class="header-bottom-left">
                     <div class="logo small">
-                        <a href="#">
+                        <a @click.prevent href="#">
                             <span class="nex-wrapper">NEX</span>
                             <span class="gen-wrapper">GEN</span>
                         </a>
@@ -13,12 +13,12 @@
                 <nav class="header-bottom-right">
                     <ul class="flex align-center">
                         <li v-for="element, index in navLinks" :key="index">
-                            <a href="#">
+                            <a @click.prevent href="#">
                                 {{element.toUpperCase()}}
                             </a>
                         </li>
                         <li>
-                            <a class="btn green" href="#">GET IN TOUCH</a>
+                            <a @click.prevent class="btn green" href="#">GET IN TOUCH</a>
                         </li>
                     </ul>
                 </nav>

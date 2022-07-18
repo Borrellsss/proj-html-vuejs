@@ -8,7 +8,7 @@
             </h2>
             <div class="second-section-text flex justify-between">
                 <p>Lorem ipsum dolor sit amet elit. Eaque rerum sunt eum sit, similique fugiat odio laborum maiores velit vitae distinctio ipsa inventore blanditiis obcaecati molestiae rem.</p>
-                <a class="btn green" href="#">SEE ALL</a>
+                <a @click.prevent class="btn green" href="#">SEE ALL</a>
             </div>
             <div class="second-section-cards flex wrap">
                 <SecondSectionCardComponent v-for="element in secondSectionCardsArray" :key="element.id" :secondSectionCard="element"/>
