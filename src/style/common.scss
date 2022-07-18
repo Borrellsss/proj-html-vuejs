@@ -102,9 +102,11 @@ section {
 
     &.small {
         width: 48%;
+        max-width: 691px;
     }
     &.big {
         width: 80%;
+        max-width: 1152px;
     }
 }
 .flex {
